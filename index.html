@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+
+    <title>GifTastic</title>
+</head>
+
+<body>
+
+
+
+
+
+    <header class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="topgun">
+                    <h1>
+                        GifTastic
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- BEGIN MAIN CONTENT -->
+    <section>
+        <div class="container">
+
+            <div class="row">
+
+                <!-- BEGIN  GIF FORM -->
+                <div class="col-12 col-lg-4 form-section">
+
+                    <!-- <form>
+                        <div class="form-group">
+                            <label for="inputCategory">Add a category</label>
+                            <input type="text" class="form-control" id="inputCategory" placeholder="Example: fireworks">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form> -->
+
+
+                    <form id="topic-form">
+                        <label for="topic-input">Add a topic</label>
+                        <input type="text" id="topic-input" class="form-control" placeholder="Example: levitation">
+                        <br>
+
+                        <!-- Button triggers new topic to be added -->
+                        <input id="add-topic" type="submit" value="Add a topic" class="btn btn-outline-warning">
+
+                        
+                    </form>
+
+                </div>
+                <!-- END GIF FORM -->
+
+
+                <!-- BEGIN  GIF BUTTONS -->
+                <div id="js-topics-view" class="col-12 col-lg-8 button-section">
+
+                    <!-- <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-info">Info</button> -->
+
+
+                </div>
+                <!-- END GIF BUTTONS -->
+
+            </div>
+
+            <!-- BEGIN  GIF IMAGES -->
+            <div class="row image-section js-image-section">
+
+                <!-- this div will be replaced with divs containing images (image-box col-12 col-md-6)-->
+                <div class="col-12">
+
+                </div>
+            </div>
+            <!-- END GIF IMAGES -->
+
+        </div>
+
+    </section>
+    <!-- END MAIN CONTENT -->
+
+
+    <!-- <footer class="footer">
+        <div class="container">
+            <span class="text-muted">
+                Copyright &copy;
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
+            </span>
+        </div>
+    </footer> -->
+
+
+
+    <!-- JQUERY  -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/javascript/app.js?v=2" type="text/javascript"></script>
+</body>
+
+</html>
