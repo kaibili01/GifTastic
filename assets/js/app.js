@@ -1,4 +1,4 @@
-var topics = ["healthy eating", "running", "dogs", "hiking", "travel"];
+var topics = ["comedy", "cheese", "levitation", "rick and morty", "fur","dharma","bollywood","tarantino movies",];
 
 var newTopic = "";
 
@@ -14,7 +14,7 @@ function renderButtons() {
     // Loop through the array of topics, then generate buttons for each topic in the array
     for (var i = 0; i < topics.length; i++) {
 
-        $('#js-topics-view').append("<button type='button' class='btn btn-info js-topic-button'>" + topics[i] + "</button>");
+        $('#js-topics-view').append("<button type='button' class='btn btn-outline-warning js-topic-button'>" + topics[i] + "</button>");
 
     };
 
@@ -44,6 +44,8 @@ function buildQueryURL(topicInput) {
     };
 
     queryParams.api_key = "kKufxYUJRDHAVkljlMGVO4x5k48SWjj0";
+    
+    
 
     queryParams.limit = numberOfResults;
 
