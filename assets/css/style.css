@@ -5,6 +5,7 @@ body {
     color: white;
     font-size: 20px;
     line-height: 1.4em;
+    
 }
 
 /* BEGIN STICKY FOOTER : part 1 of 2 */
@@ -17,6 +18,10 @@ html {
 body {
     background:black;
     margin-bottom: 60px;
+   
+    
+    
+    
 }
 
 /* END STICKY FOOTER : part 1 of 2 */
@@ -46,6 +51,7 @@ h1 {
     letter-spacing: .15em;
     /* Adjust as needed */
     animation: typing 3.5s steps(30, end);
+   
 }
 @keyframes typing {
     from {
@@ -61,12 +67,19 @@ h1 {
 /* BEGIN IMAGES */
 section .container {
     background:black;
+    
+    
+    
+
 }
 .form-section {
     margin-bottom: 1em;
+
+    
 }
 .button-section {
     margin-bottom: 1em;
+   
 }
 .button-section button {
     margin: .5em .5em 0 0;
